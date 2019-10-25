@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
@@ -41,7 +42,7 @@
             // 
             this.txtUser.BackColor = System.Drawing.SystemColors.Window;
             this.txtUser.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUser.Location = new System.Drawing.Point(165, 189);
+            this.txtUser.Location = new System.Drawing.Point(165, 178);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(250, 26);
             this.txtUser.TabIndex = 0;
@@ -49,7 +50,7 @@
             // txtPass
             // 
             this.txtPass.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPass.Location = new System.Drawing.Point(165, 220);
+            this.txtPass.Location = new System.Drawing.Point(165, 209);
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(250, 26);
             this.txtPass.TabIndex = 1;
@@ -59,7 +60,7 @@
             // 
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(229, 266);
+            this.btnLogin.Location = new System.Drawing.Point(229, 255);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 41);
             this.btnLogin.TabIndex = 2;
@@ -70,7 +71,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(79, 192);
+            this.label1.Location = new System.Drawing.Point(79, 181);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 18);
             this.label1.TabIndex = 3;
@@ -80,7 +81,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Roboto", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(79, 223);
+            this.label2.Location = new System.Drawing.Point(79, 212);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 18);
             this.label2.TabIndex = 4;
@@ -88,9 +89,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(189, 32);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(217, 32);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(150, 125);
+            this.pictureBox1.Size = new System.Drawing.Size(101, 98);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
