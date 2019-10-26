@@ -46,24 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connection Settings.cs">
+    <Compile Include="Forms\Connection Settings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Connection Settings.Designer.cs">
+    <Compile Include="Forms\Connection Settings.Designer.cs">
       <DependentUpon>Connection Settings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
+    <Compile Include="Forms\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="Forms\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modules\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Connection Settings.resx">
+    <EmbeddedResource Include="Forms\Connection Settings.resx">
       <DependentUpon>Connection Settings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -99,5 +100,6 @@
     <Content Include="Res\icons\server %281%29.png" />
     <Content Include="Res\icons\server.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
