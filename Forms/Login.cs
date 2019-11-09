@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MSSQLHelper;
 
 namespace Hospital_Management_System
 {
     public partial class frmLogin : Form
     {
+        //dito siya
+
+        MSSQLHelper.MSSQLHelper mssql = new MSSQLHelper.MSSQLHelper("connection string");
         public frmLogin()
         {
             InitializeComponent();
+            mssql.GetData();
         }
     }
 }
